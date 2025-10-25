@@ -1,5 +1,6 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
+<h1>フレーバーテキストメモ</h1>
 
 魂の輝き
 
