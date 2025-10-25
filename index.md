@@ -1,4 +1,9 @@
 <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <title>フレーバーテキストメモ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 魂の輝き
 刻み込む刻印
 
