@@ -9,6 +9,11 @@ body,
   color: #e0e0e0 !important;
 }
 
+p {
+  margin: 0 0 1em 0; /* 段落ごとに1emの余白を追加 */
+  line-height: 1.6;  /* 行間を少し広く */
+}
+
 /* 編集画面（エディタ） */
 .cm-s-obsidian,
 .cm-editor,
@@ -58,3 +63,4 @@ table {
 .cm-selectionBackground, .CodeMirror-selected {
   background-color: rgba(255,255,255,0.2) !important; /* 薄い白で選択範囲を表示 */
 }
+
