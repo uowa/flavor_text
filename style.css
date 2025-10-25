@@ -2,7 +2,7 @@ h1, header {
   display: none;
 }
 
-body,
+/* body,
 .theme-light,
 .theme-dark,
 .workspace,
@@ -11,6 +11,16 @@ body,
 .markdown-preview-view {
   background-color: #000000 !important;
   color: #e0e0e0 !important;
+} */
+
+body {
+  max-width: 800px;        /* 横幅を制限（PCで見やすい幅） */
+  margin: 40px auto;       /* 上下左右の余白。中央寄せ（完全な中央揃えではない） */
+  padding: 0 20px;         /* 画面端との間に少し余白 */
+  font-family: system-ui, sans-serif; /* シンプルで読みやすいフォント */
+  line-height: 1.7;        /* 行間を広めに */
+  background-color: #fafafa; /* 背景をほんのりグレーに */
+  color: #222;             /* 少し落ち着いた文字色 */
 }
 
 p {
@@ -67,5 +77,6 @@ table {
 .cm-selectionBackground, .CodeMirror-selected {
   background-color: rgba(255,255,255,0.2) !important; /* 薄い白で選択範囲を表示 */
 }
+
 
 
