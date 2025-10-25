@@ -1,0 +1,60 @@
+body,
+.theme-light,
+.theme-dark,
+.workspace,
+.workspace-split,
+.view-content,
+.markdown-preview-view {
+  background-color: #000000 !important;
+  color: #e0e0e0 !important;
+}
+
+/* 編集画面（エディタ） */
+.cm-s-obsidian,
+.cm-editor,
+.cm-scroller {
+  background-color: #000000 !important;
+  color: #e0e0e0 !important;
+}
+
+/* プレビュー側 */
+.markdown-preview-view {
+  background-color: #000000 !important;
+  color: #e0e0e0 !important;
+}
+
+/* タイトルやヘッダー */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* コード、引用、表など */
+code, pre {
+  background-color: #111111 !important;
+  color: #f5f5f5 !important;
+}
+blockquote {
+  background-color: #111111 !important;
+  border-left: 3px solid #444 !important;
+  color: #ccc !important;
+}
+table {
+  background-color: #111111 !important;
+  color: #ddd !important;
+  border: 1px solid #333 !important;
+}
+
+/* エディタ内のカーソル */
+.cm-cursor {
+  border-left: 2px solid #ffffff !important; /* 太さと色 */
+}
+
+/* キャレットの点滅速度を調整したい場合 */
+.cm-cursor {
+  animation-duration: 400ms !important; /* デフォルトは530ms程度 */
+}
+
+/* 選択範囲の背景も黒背景に合わせて調整 */
+.cm-selectionBackground, .CodeMirror-selected {
+  background-color: rgba(255,255,255,0.2) !important; /* 薄い白で選択範囲を表示 */
+}
