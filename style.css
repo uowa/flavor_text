@@ -1,3 +1,7 @@
+h1, header {
+  display: none;
+}
+
 body,
 .theme-light,
 .theme-dark,
@@ -63,4 +67,5 @@ table {
 .cm-selectionBackground, .CodeMirror-selected {
   background-color: rgba(255,255,255,0.2) !important; /* 薄い白で選択範囲を表示 */
 }
+
 
